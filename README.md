@@ -17,3 +17,4 @@ Build end-to-end cloud deployments using automation tools
     - Deployed Azure infrastructure using Terraform: created resource groups, VNets, subnets, NICs, NSGs, and Linux VMs while handling SKU availability, subnet propagation, and subscription capacity limits. ✅
     - Implemented secure and compliant networking patterns: configured NSGs, SSH key authentication, Standard SKU Public IPs, and  - phased deployments to address Azure eventual consistency. ✅
     - Verified and managed cloud resources: checked VM health and networking post-deployment, and used terraform destroy to cleanly tear down infrastructure to control cloud spend. ✅
+    - yo aaron
