@@ -19,11 +19,11 @@ Build end-to-end cloud deployments using automation tools
     - Verified and managed cloud resources: checked VM health and networking post-deployment, and used terraform destroy to cleanly tear down infrastructure to control cloud spend. ✅
  - Day 2: Ansible Installation into the Linux VM ✅
     - Installed Ansible on Codespaces to run playbooks and commands on the VM ✅
- - Created `setup-vm.yml` playbook to: ✅
-  - Install XFCE desktop environment ✅
-  - Install XRDP and enable the service on boot ✅
-- Configured firewalls:
-  - Opened port 3389 on UFW (VM-level firewall) ✅
-  - Confirmed Azure NSG inbound rule for RDP ✅
-- Verified XRDP service was running ✅
-- Connected to the VM via Remote Desktop and confirmed GUI was operational ✅
+    - Created `setup-vm.yml` playbook to: ✅
+       - Install XFCE desktop environment ✅
+       - Install XRDP and enable the service on boot ✅
+    - Configured firewalls:
+       - Opened port 3389 on UFW (VM-level firewall) ✅
+       - Confirmed Azure NSG inbound rule for RDP ✅
+    - Verified XRDP service was running ✅
+    - Connected to the VM via Remote Desktop and confirmed GUI was operational ✅
