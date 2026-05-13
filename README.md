@@ -28,8 +28,8 @@ Build end-to-end cloud deployments using automation tools
        - Confirmed Azure NSG inbound rule for RDP ✅
     - Verified XRDP service was running ✅
     - Connected to the VM via Remote Desktop and confirmed GUI was operational ✅
-    
-   **Day 3: Splunk Installation, Firefox Setup, and Dashboard Monitoring** ✅
+
+ - **Day 3: Splunk Installation, Firefox Setup, and Dashboard Monitoring** ✅
     - Installed Firefox manually from the tarball (avoiding Snap version) ✅
        - Removed any Snap Firefox installations ✅
        - Downloaded the latest Firefox Linux tarball ✅
