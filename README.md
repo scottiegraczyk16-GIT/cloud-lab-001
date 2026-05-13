@@ -28,3 +28,23 @@ Build end-to-end cloud deployments using automation tools
        - Confirmed Azure NSG inbound rule for RDP ✅
     - Verified XRDP service was running ✅
     - Connected to the VM via Remote Desktop and confirmed GUI was operational ✅
+   **Day2: Splunk Installation, Firefox Setup, and Dashboard Monitoring** ✅
+    - Installed Firefox manually from the tarball (avoiding Snap version) ✅
+       - Removed any Snap Firefox installations ✅
+       - Downloaded the latest Firefox Linux tarball ✅
+       - Extracted Firefox and confirmed it launches from the terminal ✅
+       - Added it to the desktop for GUI access via XRDP ✅
+    - Downloaded and extracted Splunk Enterprise TGZ to the Linux VM ✅
+    - Started Splunk for the first time and accepted the license ✅
+    - Verified Splunk web UI was accessible via http://<vm-ip>:8000 ✅
+    - Added /var/log directory as a data monitor so system logs would be indexed ✅
+    - Generated test logs using logger to simulate system events ✅
+    - Verified logs were appearing in Splunk search (index=main sourcetype=syslog) ✅
+    - Created a new Classic Dashboard in the Search & Reporting app ✅
+       - Added panels for:
+          - Table view of syslog events ✅
+          - Bar chart for log counts by type or host ✅
+          - Optional timechart for trends over time ✅
+       - Configured filters for time ranges and host selection ✅
+    - Confirmed the dashboard displayed live, dynamically updating logs ✅
+    - Learned to delete panels or adjust searches to refine dashboard output ✅
