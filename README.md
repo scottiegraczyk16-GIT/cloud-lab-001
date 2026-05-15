@@ -49,4 +49,3 @@ Build end-to-end cloud deployments using automation tools
        - Configured filters for time ranges and host selection ✅
     - Confirmed the dashboard displayed live, dynamically updating logs ✅
     - Learned to delete panels or adjust searches to refine dashboard output ✅
-    Yoo waddup SLAYER!!!!
