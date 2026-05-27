@@ -49,3 +49,15 @@ Build end-to-end cloud deployments using automation tools
        - Configured filters for time ranges and host selection ✅
     - Confirmed the dashboard displayed live, dynamically updating logs ✅
     - Learned to delete panels or adjust searches to refine dashboard output ✅
+
+ - **Day 4: NGINX Reverse Proxy, Flask Login Simulator, and Splunk Alerting** ✅
+
+    - Configured NGINX as a reverse proxy to securely route public web traffic to internal Flask applications running on localhost ports ✅  
+    - Learned why production environments use reverse proxies instead of exposing application ports directly to the internet ✅  
+    - Troubleshot NGINX configuration issues, verified active configs with `nginx -T`, and restarted services to successfully proxy Flask applications ✅  
+    - Built a Flask-based login simulator application that generates authentication logs for security monitoring ✅  
+    - Verified Flask applications were listening locally and accessible externally through NGINX on port 80 ✅  
+    - Created and ingested custom login logs into Splunk for real-time monitoring and analysis ✅  
+    - Built a Splunk dashboard to visualize login activity, failed logins, usernames, and potential brute force behavior ✅  
+    - Created a Splunk detection alert to identify excessive failed login attempts and simulate SOC-style security monitoring workflows ✅  
+    - Built a Python brute force simulation script to generate realistic authentication attack traffic for testing detections and dashboards ✅  
