@@ -62,7 +62,7 @@ Build end-to-end cloud deployments using automation tools
     - Created a Splunk detection alert to identify excessive failed login attempts and simulate SOC-style security monitoring workflows ✅  
     - Built a Python brute force simulation script to generate realistic authentication attack traffic for testing detections and dashboards ✅  
 
- - **## - Day 5: Ansible Automation, Multi-Service Deployment, and SOC Lab Expansion** ✅
+ - **Day 5: Ansible Automation, Multi-Service Deployment, and SOC Lab Expansion** ✅
 
     - Built and refined an Ansible automation framework to fully deploy the SOC lab environment, converting manual VM configuration into repeatable infrastructure-as-code using modular roles for Flask apps, NGINX, Splunk, and supporting services ✅  
     - Deployed and managed multiple Flask-based security simulation applications (login simulator and logging app), including systemd integration to ensure services persist across reboots and run automatically on startup ✅  
