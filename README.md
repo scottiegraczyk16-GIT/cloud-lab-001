@@ -70,4 +70,14 @@ Build end-to-end cloud deployments using automation tools
     - Configured firewall (UFW) rules and aligned Azure Network Security Group (NSG) settings to allow secure external access to newly deployed applications while maintaining existing infrastructure access controls ✅  
     - Debugged Ansible inventory and deployment issues, correcting host targeting and ensuring successful orchestration of services to the Azure VM using proper role execution and systemd management ✅  
     - Validated full end-to-end functionality of the SOC environment by confirming active services with `systemctl`, verifying listening ports with `ss`, and testing external accessibility via browser and `curl` requests over the public IP ✅  
-    - Strengthened SOC architecture understanding by working alongside existing Splunk SIEM services while integrating custom attack simulation and logging workflows for security monitoring practice use cases ✅  
+    - Strengthened SOC architecture understanding by working alongside existing Splunk SIEM services while integrating custom attack simulation and logging workflows for security monitoring practice use cases ✅ 
+
+ - **Day 6: Docker Fundamentals, Containerized Applications, and Deployment Workflow Understanding** ✅
+
+    - Installed and configured Docker on the Linux VM for containerized apps ✅  
+    - Built and ran Python apps in containers, testing HTTP services and learning container isolation ✅  
+    - Fixed container networking and port conflicts by assigning alternate exposed ports ✅  
+    - Created Docker images using Dockerfiles, learning reuse and deployment across VMs ✅  
+    - Practiced container lifecycle: run, stop, inspect, and interact with containers ✅  
+    - Clarified SysAdmin/DevOps role: focus on infrastructure, automation, and deployment, not app coding ✅  
+    - Learned how images can be shared and reused for scalable deployment workflows ✅ 
