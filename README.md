@@ -6,8 +6,65 @@
 - Terraform (Infrastructure as Code)
 - Ansible (Configuration Management)
 
-## Goal
-Build end-to-end cloud deployments using automation tools
+## Overview
+Cloud Lab 001 is a hands-on Azure-based Linux administration and DevOps lab designed to build practical experience with infrastructure automation, system administration, security monitoring, containerization, and cloud technologies.
+
+The environment is deployed and managed using Terraform and Ansible while integrating services such as Splunk Enterprise, NGINX, Docker, Python applications, and XRDP remote desktop access.
+
+## Technologies Used
+- Azure
+- Linux (Ubuntu)
+- Terraform
+- Ansible
+- Docker
+- Python
+- Splunk Enterprise
+- NGINX
+- Git & GitHub
+- XRDP / XFCE
+
+## Lab Components
+- Azure Linux VM
+- Terraform Infrastructure Deployment
+- Ansible Automation Framework
+- Splunk SIEM
+- NGINX Reverse Proxy
+- Flask Applications
+- Docker Containers
+- XRDP Desktop Access
+- Security Logging & Monitoring
+
+## Repository Structure
+Cloud-Lab-001/
+├── ansible-lab/
+│   ├── inventory.ini
+│   ├── requirements.txt
+│   ├── setup-vm.yml
+│   ├── test-base.yml
+│   └── roles/
+│       ├── base/
+│       ├── xrdp/
+│       ├── python/
+│       ├── nginx/
+│       ├── flask/
+│       ├── simulators/
+│       └── splunk/
+├── terraform/
+├── docker/
+├── screenshots/
+└── README.md
+
+## Ansible Roles
+
+| Role        | Purpose |
+|-------------|--------|
+| base        | Installs core system packages and baseline configuration |
+| xrdp        | Configures XFCE desktop environment and XRDP remote access |
+| python      | Installs Python dependencies and runtime packages |
+| nginx       | Deploys and configures NGINX reverse proxy services |
+| flask       | Deploys custom Flask web applications |
+| simulators  | Deploys security simulation and login applications |
+| splunk      | Installs and configures Splunk Enterprise |
 
 ## Progress
  - **Day 1: Created my first repository** ✅
