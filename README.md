@@ -35,24 +35,24 @@ The environment is deployed and managed using Terraform and Ansible while integr
 - Security Logging & Monitoring
 
 ## Repository Structure
-Cloud-Lab-001/
-├── ansible-lab/
-│   ├── inventory.ini
-│   ├── requirements.txt
-│   ├── setup-vm.yml
-│   ├── test-base.yml
-│   └── roles/
-│       ├── base/
-│       ├── xrdp/
-│       ├── python/
-│       ├── nginx/
-│       ├── flask/
-│       ├── simulators/
-│       └── splunk/
-├── terraform/
-├── docker/
-├── screenshots/
-└── README.md
+- Cloud-Lab-001/
+  - ansible-lab/
+    - inventory.ini
+    - requirements.txt
+    - setup-vm.yml
+    - test-base.yml
+    - roles/
+      - base/
+      - xrdp/
+      - python/
+      - nginx/
+      - flask/
+      - simulators/
+      - splunk/
+  - terraform/
+  - docker/
+  - screenshots/
+  - README.md
 
 ## Ansible Roles
 
