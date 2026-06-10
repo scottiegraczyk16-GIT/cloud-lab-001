@@ -1,5 +1,5 @@
 
-# Cloud Lab 001
+# Cloud Lab 001 (Linux VM)
 
 ## What I'm Learning
 - GitHub basics
